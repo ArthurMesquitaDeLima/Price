@@ -28,13 +28,37 @@ body {
 }
 
 section {
-     min-width: 32.7rem;
+     min-width: 31.1rem;
      max-width: 45rem;
      background: #FFF;
-     border-radius: 2rem, 2rem, 0, 0;
+     border-radius: 0.5rem;
 }
 
-.fist-container > title {
-    color: var(--Cyan)
-}    
+
+.fist-container > .title {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    letter-spacing: -0.025rem;
+    color: var(--Cyan);
+    margin-bottom: 2.4rem;
+}
+
+.fist-container > .subtitle {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: -0.01875rem;
+    color: var(--Bright-Yellow);
+    margin-bottom: 1.6rem
+}
+
+.fist-container > .text {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    letter-spacing: -0.0175rem;
+    color: var(--Grayish-Blue);
+    margin-bottom: 3.4rem;
+}
 
