@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Cyan: #2ab2af;
+    --Bright-Yellow: #c0df34;
+    --Light-Gray: #e5eff5;
+    --Grayish-Blue: #98a6bd;
+}
+
+
+html {
+    font-size: 62.5%;   
+}
+
+body {   
+    padding: 2.4rem;
+    background: var(--Grayish-Blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+     min-width: 32.7rem;
+     max-width: 45rem;
+     background: #FFF;
+     border-radius: 2rem, 2rem, 0, 0;
+}
+
+.fist-container > title {
+    color: var(--Cyan)
+}    
+
